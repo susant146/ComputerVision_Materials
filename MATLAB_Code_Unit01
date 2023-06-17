@@ -1,0 +1,32 @@
+% Run Individual Codes. 
+% Starting of Each code, Number is mentioned.
+% Run Individual Codes in MATLAB.
+% Author: Dr. Susant Kumar Panigrahi
+% Assistant Professor Grade-01
+% School of Electrical and Electronics Engineering (SEEE)
+% VIT Bhopal University.
+% Version - 01 [Will be Updated in Future. More codes will be added.]
+
+
+
+% -------- 1. Reading an Image ---------
+im=imread(‘cameraman.tif’);
+imwrite(im, gray(256), 'b.bmp');
+imshow('b.bmp')% imshow is used to display image
+imwrite (im, 'cameraman.png');
+
+% --------- 2. Imtool: Open Image Viewer app -----------------
+clear; close all; clc;
+% imtool('board.tif');
+im = imread('board.tif');
+% im = imread('cameraman.tif'); % Display a grayscale image.
+% h = imtool(I,[0 80]); %Display a grayscale image, adjusting the
+display range.
+% close(h)
+imtool(im);
+im_Max = max(max(im(:,:,1)))
+im_Min = min(min(im(:,:,1)))
+imtool(im, [im_Min im_Max]);
+imtool(im, [0 120]);
+
+
