@@ -1,6 +1,7 @@
 # ComputerVision_Materials
 This is a pilot course on Computer Vision thaugh by me at VIT Bhopal university.
 Those who are following this course kindly let me know what new ammandemnets I can bring into it.
+Moreover, for editable slides please contact me in the following email id.
 Contact me: susant.panigrahi@yahoo.com.
 
 My research interst lies in Inverse Problems in Image Processing.
