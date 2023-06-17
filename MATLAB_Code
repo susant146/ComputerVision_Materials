@@ -1,0 +1,16 @@
+% Run Individual Codes. 
+% Starting of Each code, Number is mentioned.
+% Run Individual Codes in MATLAB.
+% Author: Dr. Susant Kumar Panigrahi
+% Assistant Professor Grade-01
+% School of Electrical and Electronics Engineering (SEEE)
+% VIT Bhopal University.
+% Version - 01 [Will be Updated occasionally.]
+
+
+
+% -------- Reading an Image ---------
+im=imread(‘cameraman.tif’);
+imwrite(im, gray(256), 'b.bmp');
+imshow('b.bmp')% imshow is used to display image
+imwrite (im, 'cameraman.png');
