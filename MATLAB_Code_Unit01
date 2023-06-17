@@ -29,7 +29,7 @@ im_Min = min(min(im(:,:,1)))
 imtool(im, [im_Min im_Max]);
 imtool(im, [0 120]);
 
-% Basic Image Pre-Processing Examples
+% ------- 3. Basic Image Pre-Processing Examples ------
 % ----------------------------------------
 
 im = imread("I23.BMP"); Read a color or RGB Image
