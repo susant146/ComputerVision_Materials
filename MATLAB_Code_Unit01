@@ -10,7 +10,7 @@
 
 
 % -------- 1. Reading an Image ---------
-im=imread(‘cameraman.tif’);
+im=imread(‘Test Images\cameraman.tif’);
 imwrite(im, gray(256), 'b.bmp');
 imshow('b.bmp')% imshow is used to display image
 imwrite (im, 'cameraman.png');
@@ -19,7 +19,7 @@ imwrite (im, 'cameraman.png');
 clear; close all; clc;
 % imtool('board.tif');
 im = imread('board.tif');
-% im = imread('cameraman.tif'); % Display a grayscale image.
+% im = imread('Test Images\cameraman.tif'); % Display a grayscale image.
 % h = imtool(I,[0 80]); %Display a grayscale image, adjusting the
 display range.
 % close(h)
@@ -32,7 +32,7 @@ imtool(im, [0 120]);
 % ------- 3. Basic Image Pre-Processing Examples ------
 % ----------------------------------------
 
-im = imread("I23.BMP"); Read a color or RGB Image
+im = imread("Test Images\I23.BMP"); Read a color or RGB Image
 % Convert image to grayscale ---
 im_gray = rgb2gray(im);
 
